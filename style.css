@@ -308,7 +308,15 @@ input::placeholder{
     color: white;
 }
 
-
-
-
+@media  (min-width: 1200px) {
+    body {
+      background-color: lightblue;
+    }
+    .product{
+        display: none;
+    }
+    .product6{
+        display: none;
+    }
+  }
 
